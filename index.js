@@ -9,6 +9,9 @@ function onClick(event){
     const z = Math.floor(Math.random() * 256);
     const bgColor = "rgb(" + x + "," + y + "," + z + ")";
   nameH1.style.color=bgColor
-
+  const test = document.createElement('div')
+  test.textContent = 'test'
+  nameH1.appendChild(test)
+  console.log(test);
 }
 
